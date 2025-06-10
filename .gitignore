@@ -1,8 +1,27 @@
+# === Python / Django ===
 venv/
 __pycache__/
-*.pyc
+*.py[cod]
 *.sqlite3
 .env
-node_modules/
-dist/
-build/
+db.sqlite3
+
+# === Node / React ===
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/build/
+frontend/.next/     # (se un giorno usi Next.js)
+frontend/.turbo/    # (se usi Turbopack)
+frontend/.vite/     # (per progetti Vite)
+frontend/package-lock.json
+frontend/yarn.lock  # se usi yarn
+
+# === Mac / Windows / VSCode ===
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# === Altri ===
+*.log
